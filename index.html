@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework2</title>
     <style>
-        input:focus{
-            background-color: orangered;
+        :target{
+            border: 2px solid green;
+            background-color: yellow;
         }
     </style>
 </head>
 <body>
-    <form>
-        Phone: <input type="tel"><br>
-        Email: <input type="email" disabled="disable">
-    </form>
+    <a href="#news1"> content 1 </a><br>
+    <a href="#news2"> content 2 </a>
+
+    <p id="news1"> content 1</p>
+    <p id="news2"> content 2</p>
 </body>
 </html>
